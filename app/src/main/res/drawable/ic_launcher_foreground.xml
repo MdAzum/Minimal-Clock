@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Azum launcher icon foreground: a minimalist clock mark -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,24 A30,30 0 1,0 54.01,24 Z M54,30 A24,24 0 1,1 53.99,30 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M53,36 L57,36 L57,55 L70,63 L68,66 L53,57 Z" />
+</vector>

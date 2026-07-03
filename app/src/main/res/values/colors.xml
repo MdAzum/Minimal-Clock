@@ -1,0 +1,5 @@
+<resources>
+    <color name="azum_black">#FF000000</color>
+    <color name="azum_white">#FFFFFFFF</color>
+    <color name="azum_icon_background">#FF101010</color>
+</resources>

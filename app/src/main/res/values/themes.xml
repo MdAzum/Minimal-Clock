@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--
+      MainActivity's theme is translucent + shows the wallpaper so the
+      "No Background" clock option can reveal the real home-screen wallpaper.
+      For White/Black/Custom backgrounds we simply draw an opaque full-screen
+      Compose Surface on top, which fully covers this transparency.
+      Note: true wallpaper transparency behind an app is a best-effort
+      Android feature and can vary slightly by device/launcher.
+    -->
+    <style name="Theme.AzumClock" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@color/azum_black</item>
+        <item name="android:navigationBarColor">@color/azum_black</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
+</resources>

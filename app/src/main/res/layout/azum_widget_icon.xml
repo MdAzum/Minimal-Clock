@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Azum Icon-style Clock Widget: 1x1, styled to sit in the app icon grid -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/azum_icon_widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/azum_icon_widget_background">
+
+    <TextClock
+        android:id="@+id/azum_icon_widget_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:format12Hour="h:mm"
+        android:format24Hour="HH:mm"
+        android:textColor="#FFFFFFFF"
+        android:textSize="13sp"
+        android:fontFamily="sans-serif-medium" />
+</FrameLayout>

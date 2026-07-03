@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Metadata for the Azum Icon-style Clock Widget -->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="40dp"
+    android:minHeight="40dp"
+    android:targetCellWidth="1"
+    android:targetCellHeight="1"
+    android:updatePeriodMillis="0"
+    android:previewImage="@mipmap/ic_launcher"
+    android:initialLayout="@layout/azum_widget_icon"
+    android:resizeMode="none"
+    android:widgetCategory="home_screen"
+    android:description="@string/azum_icon_widget_description" />
